@@ -55,6 +55,8 @@ include(${QT_USE_FILE})
 
 add_definitions(-DQT_NO_KEYWORDS)
 
+add_definitions(-DHAVE_NEW_YAMLCPP)
+
 ## Here we specify which header files need to be run through "moc",
 ## Qt's meta-object compiler.
 qt4_wrap_cpp(MOC_FILES
